@@ -1,0 +1,4 @@
+1.) Es gibt ein neues Projekt namens ‚Klassenzimmer Digital‘. In diesem Projekt soll ein komplett digitales Klassenzimmer erstellt werden, in dem Schüler in einer digitalen Welt 1:1 so arbeiten können wie in Präsents. Sie haben die Aufgabe erhalten, ein Klassenzimmer als Klassendiagramm zu modellieren. Bedenken Sie alle Elemente, die in einem Klassenzimmer vorkommen können, für was man diese verwendet und welche Eigenschaften diese haben.
+Wundern Sie sich nicht, wenn viele Relationen Ableitungen sind.
+
+2.) Programmieren Sie jetzt das Klassendiagramm aus Aufgabe 3 aus. Erstellen Sie alle Klassen mit den jeweiligen Attributen und Methoden. Verwenden Sie für die Beziehungen untereinander Listen und Felder. Für Ableitungen verwendet man die klassische Ableitung mit dem Doppelpunkt hinter dem Klassennamen.

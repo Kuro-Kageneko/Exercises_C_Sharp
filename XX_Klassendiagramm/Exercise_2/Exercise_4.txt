@@ -1,0 +1,4 @@
+//Anlehung an die IHK-Prüfung
+
+Wir sollen eine Besucherapp modellieren. Dabei gibt es drei verschiedene Typen von Besuchern: Standard (Kein Rabatt), Premium (10% Rabatt) und VIP (20% Rabatt, darf Premiumeingang nutzen).
+Implementieren Sie mit Hilfe von Vererbung die drei Klassen. Dabei soll die Klasse Besucher eine Methode besitzen, die das jeweilige Objekt der jeweiligen Klasse zurück gibt.

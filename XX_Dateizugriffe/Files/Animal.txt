@@ -1,0 +1,10 @@
+Hund
+Katze
+Maus
+Kuh
+Vogel
+Bär
+Wolf
+Tiger
+Elefant
+Gepard

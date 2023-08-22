@@ -1,0 +1,7 @@
+Im ersten Schritt sollen Sie sich mit dynamischen Eingaben in Echtzeit auseinandersetzen. Die Grundvoraussetzung dafür ist eine Umgebung, in der beispielsweise ein Männchen (repräsentiert durch einen Char, also beispielsweise einem X), die als Spielfigur agiert, vom Nutzer gesteuert werden kann. Dies wollen wir mit Hilfe der Pfeiltasten realisieren. Dafür kann man sehr gut die Methode Console.ReadKey() verwenden. Dieser gibt (bis auf ein paar ausnahmen) bei jedem Tastendruck die jeweilige Taste mit dem Wert eines Enums zurück. Sie können den Wert dann mit .Key abfragen.
+
+
+Im Kern sind also Ihre Aufgaben folgende:
+ - Erstellen Sie ein zweidimensionales Array.
+ - Implementieren Sie ein Objekt, dass der Nutzer mit Hilfe der Pfeiltasten steuern kann.
+ - Zeigen Sie das 'Spielfeld' an und aktualisieren Sie es bei jeder Änderung.

@@ -1,0 +1,2 @@
+Sie sollen für eine Schiffe versenken Software ein Use-Case-Diagramm modellieren. Das Spiel ist auf zwei Spieler ausgelegt. Dabei eröffnet ein Spieler einen Raum und ein zweiter kann dann folgen. Das Spiel kann erst gestartet werden, wenn ein zweiter Spieler gefolgt ist.
+Dann darf jeder Spieler abwechselnd setzen. Jeder Spieler kann aber auch das Spiel abbrechen, dann wird die Verbindung getrennt und der Raum geschlossen.

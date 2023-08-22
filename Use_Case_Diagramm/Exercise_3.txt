@@ -1,0 +1,2 @@
+Sie sollen ein Use-Case-Diagramm für einen Login-Bereich schreiben. In diesem soll sich ein Anwender registrieren und anmelden können. Wenn sich jemand registriert hat, dann muss sein Account erst durch einen Admin freigeschalten werden. Nache erfolgreichen login kann der Anwender Posts erstellen und Kommentare dazu schreiben. Diese können von ihm selber und von einem Admin geslöscht werden.
+Der gesamte Account kann auch von einem Admin gesperrt werden, dann ist ein Einloggen nicht mehr möglich.
