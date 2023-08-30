@@ -10,7 +10,7 @@ namespace Exercises_C_Sharp.E01_Einleitung
         {
             //Sorgen Sie dafür, dass in der Konsole nicht das englische ‚Hello World!‘, sondern die deutsche Übersetzung ‚Hallo Welt!‘ ausgegeben wird.
             //Code START
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Hallo Welt!");
             //Code ENDE
         }
     }
