@@ -10,18 +10,20 @@ namespace Exercises_C_Sharp.XX_Lists
         {
             //Sorgen Sie dafür, dass unten aus der Liste "Hallo, wie geht's?" ausgegeben wird:
 
-            List<string> stringList = new List<string>();
-            stringList.Add(", wie");
-            stringList.Add("'s?");
-            
-            /*Code START*/
 
+
+            /*Code START*/
+            List<string> stringList = new List<string>();
+            stringList.Add("Hallo");
+            stringList.Add(", wie");
+            stringList.Add(" geht");
+            stringList.Add("'s?");
 
             /*Code ENDE*/
 
 
             //Kontrolle:
-            foreach(var element in stringList)
+            foreach (var element in stringList)
                 Console.Write(element);
         }
     }

@@ -10,10 +10,12 @@ namespace Exercises_C_Sharp.XX_Lists
         {
             //Sorgen Sie dafür, dass in der Liste alle Zahlen von 1 bis 10 stehen:
             List<int> intList = new List<int>();
-            for(int i = 0; i < 10; i++)
+            for(int i = 0; i <= 10; i++)
             {
                 /*Code START*/
+                intList.Add(i+1);
 
+                Console.WriteLine(intList[i]);
                 /*Code ENDE*/
             }
 

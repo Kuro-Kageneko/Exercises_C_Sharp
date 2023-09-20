@@ -10,7 +10,7 @@ namespace Exercises_C_Sharp.XX_Methods
             while (true) 
             {
                 Console.WriteLine("Bitte Primzahl eingeben:");
-                res *= primzahl();
+                //res *= primzahl();
             }
             //Code ENDE
         }
@@ -32,7 +32,7 @@ namespace Exercises_C_Sharp.XX_Methods
                         break;
                     }
                 }
-                if (b) return ui;
+                //if (b) return ui;
                 Console.WriteLine("Die eingegebene Zahl ist keine Primzahl. Please try again:");
             }
         }

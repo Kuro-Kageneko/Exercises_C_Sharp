@@ -11,7 +11,8 @@ namespace Exercises_C_Sharp.XX_Lists
             //Erstellen Sie eine Liste, in die unten die drei Werte reingeschrieben werden:
 
             /*Code START*/
-            dynamic superList = 1;
+            List<dynamic> superList = new List<dynamic>();
+
             /*Code ENDE*/
 
             superList.Add("Hallo");

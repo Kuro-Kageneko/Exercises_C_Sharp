@@ -22,6 +22,18 @@ namespace Exercises_C_Sharp.XX_Lists
         {
             /*Code START*/
 
+            while(doubleList.Count > i) 
+            {
+                //double min = doubleList.Min();
+                //doubleList.Remove(min);
+
+                double min = double.MaxValue;
+                for(int k = 0; k < doubleList.Count; k++) 
+                    if (doubleList[k] < min)
+                        min = doubleList[k];
+                        doubleList.Remove(min);
+            }
+
             return doubleList;
             /*Code ENDE*/
         }
