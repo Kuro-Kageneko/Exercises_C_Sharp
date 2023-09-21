@@ -14,11 +14,13 @@ namespace Exercises_C_Sharp.XX_Lists
             
         }
 
-        //Schreiben Sie eine Methode, die eine beliebige Anzahl von String-Eingaben vom Nutzer entgegen nimmt. Die Methode soll dann eine Liste dieser Eingaben zurück geben.
+        //Schreiben Sie eine Methode, die eine beliebige Anzahl von String-Eingaben vom Nutzer entgegen nimmt.
+        //Die Methode soll dann eine Liste dieser Eingaben zurück geben.
         static List<string> Meth()
         {
             /*Code START*/
-
+            string s = Console.ReadLine();
+            
             return new List<string>();
             /*Code ENDE*/
         }

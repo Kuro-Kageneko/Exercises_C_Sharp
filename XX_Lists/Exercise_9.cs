@@ -20,6 +20,41 @@ namespace Exercises_C_Sharp.XX_Lists
         static void Meth(List<int> intList)
         {
             /*Code START*/
+            List<string> einerList = new List<string>()
+                { "", "ein", "zwei", "drei", "vier", "fünf", "sechs", "sieben", "acht", "neun"};
+            List<string> zehnerList = new List<string>()
+                { "", "zehn", "zwanzig", "dreißig", "vierzig", "fünfzig", "sechzig", "siebzig", "achtzig", "neunzig"};
+
+            foreach(var element in intList) 
+            {
+                int element = element;
+                if(element < 0) 
+                {
+                    Console.Write("Minus");
+                    element *= -1;
+                }
+
+                int einer = element % 10;
+                int zehner = element / 10;
+
+                if(element == 0)
+                    Console.WriteLine("Null");
+                else if(element == 1)
+                    Console.WriteLine("Eins");
+                else if(element <= 9)
+                    Console.WriteLine(einerList[einer]);
+                else if(einer == 0)
+                    Console.WriteLine(zehnerList[zehner]);
+                else if (element == 11)
+                    Console.WriteLine("Elf");
+                else if (element == 12)
+                    Console.WriteLine("Zwölf");
+                else if (element == 19)
+                    Console.WriteLine(einerList[einer].Substring(0,4) + zehnerList[zehner]);
+                else
+                Console.WriteLine(einerList[einer] + "und" + zehnerList[zehner]);
+            }
+
 
             /*Code ENDE*/
         }
