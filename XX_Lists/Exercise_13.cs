@@ -1,6 +1,8 @@
 using System;
 using System.IO;
 using System.Collections.Generic;
+using Microsoft.VisualBasic;
+using System.ComponentModel.DataAnnotations;
 
 namespace Exercises_C_Sharp.XX_Lists
 {
@@ -20,8 +22,22 @@ namespace Exercises_C_Sharp.XX_Lists
         static List<int> Meth(List<int> lis)
         {
             /*Code START*/
+            //Selection Sort
+            List<int> sortedList = new();
 
-            return new List<int>();
+            while (lis.Count > 0) 
+            { 
+                int min = int
+                for (int i = 0; i < lis.Count; i++) 
+                { 
+                    if (TurnValue(lis[i]) < TurnValue(min)) 
+                        Min = lis[i];
+                }
+                sortedList.Add(min);
+                    lis.Remove(min);
+            }
+
+            return sortedList;
             /*Code ENDE*/
         }
     }
