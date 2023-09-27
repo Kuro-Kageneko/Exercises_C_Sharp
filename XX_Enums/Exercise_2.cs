@@ -11,11 +11,12 @@ namespace Exercises_C_Sharp.XX_Enumns
         public static void Start()
         {
             //Code Start
+           
 
             //Code Ende
         }
-        static int x = 0;
-        static int y = 0;
+        static int x = 1;
+        static int y = 6;
         static void Going(Direction a)
         {
             if(a == Direction.North)

@@ -9,7 +9,7 @@ namespace Exercises_C_Sharp.XX_Enumns
         public static void Start()
         {
             //Code Start
-
+            PrintAnimal(ConsoleColor.White, ConsoleColor.Magenta);
 
             //Code ENDE
         }

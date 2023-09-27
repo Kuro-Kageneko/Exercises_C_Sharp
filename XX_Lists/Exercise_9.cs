@@ -27,11 +27,10 @@ namespace Exercises_C_Sharp.XX_Lists
 
             foreach(var element in intList) 
             {
-                int element = element;
                 if(element < 0) 
                 {
                     Console.Write("Minus");
-                    element *= -1;
+                    //element *= -1;
                 }
 
                 int einer = element % 10;

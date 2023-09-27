@@ -22,22 +22,22 @@ namespace Exercises_C_Sharp.XX_Lists
         static List<int> Meth(List<int> lis)
         {
             /*Code START*/
-            //Selection Sort
-            List<int> sortedList = new();
+            ////Selection Sort
+            //List<int> sortedList = new();
 
-            while (lis.Count > 0) 
-            { 
-                int min = int
-                for (int i = 0; i < lis.Count; i++) 
-                { 
-                    if (TurnValue(lis[i]) < TurnValue(min)) 
-                        Min = lis[i];
-                }
-                sortedList.Add(min);
-                    lis.Remove(min);
-            }
+            ////while (lis.Count > 0) 
+            //{ 
+            //    int min = lis.Min();
+            //    for (int i = 0; i < lis.Count; i++) 
+            //    { 
+            //        if (TurnValue(lis[i]) < TurnValue(min)) 
+            //            Min = lis[i];
+            //    }
+            //    sortedList.Add(min);
+            //        lis.Remove(min);
+            //}
 
-            return sortedList;
+            return new List<int>();
             /*Code ENDE*/
         }
     }
